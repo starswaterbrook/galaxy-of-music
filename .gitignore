@@ -1,0 +1,7 @@
+.venv
+script*
+.env
+.ruff_cache
+.mypy_cache
+output
+__pycache__

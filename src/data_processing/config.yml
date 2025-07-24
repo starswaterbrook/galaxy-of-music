@@ -1,0 +1,24 @@
+top_genres:
+  - Pop 
+  - Rock
+  - Electronic
+  - Hip Hop
+  - Metal
+  - Folk
+  - Classical
+  - Jazz
+  - R&B
+  - Country
+  - Reggae
+  - Blues
+  - Latin
+  - Indie
+  - Gospel
+  - K-Pop
+  - Grunge
+  - J-Pop
+  - V-Pop
+  - Afropop
+
+clusterer_smoothing: 4
+tsne_perplexity: 4

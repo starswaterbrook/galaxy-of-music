@@ -1,0 +1,36 @@
+name: Check styling
+
+on:
+    push:
+        branches:
+            - master
+    pull_request:
+        branches:
+            - "**"
+
+jobs:
+    run-checks:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Set up Python
+              uses: actions/setup-python@v2
+              with:
+                  python-version: "3.12"
+
+            - name: Install dependencies
+              run: |
+                  pip install -r requirements.txt
+                  mypy --install-types
+
+            - name: Check code with ruff
+              run: |
+                  ruff check
+                  ruff format --check
+
+            - name: Check code with mypy
+              run: |
+                  mypy .

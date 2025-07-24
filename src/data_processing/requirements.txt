@@ -1,0 +1,11 @@
+# python 3.12.9
+# pip 25.1.1
+PyYAML==6.0.2
+sentence-transformers==5.0.0
+scikit-learn==1.7.1
+matplotlib==3.10.3
+colorspacious==1.1.2
+numpy==2.3.1
+scipy==1.16.0
+torch==2.7.1
+networkx==3.5
