@@ -11,7 +11,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
               with:
-                  ref: master
+                  ref: main
                   fetch-depth: 0
             - name: Install Heroku CLI
               run: |
@@ -21,4 +21,4 @@ jobs:
                   heroku_api_key: ${{secrets.HEROKU_API_KEY}}
                   heroku_app_name: ${{secrets.HEROKU_DEV_APP_NAME}}
                   heroku_email: ${{secrets.HEROKU_MAIL}}
-                  branch: "master"
+                  branch: "main"
