@@ -7,4 +7,10 @@ Flask==3.1.1
 itsdangerous==2.2.0
 Jinja2==3.1.6
 MarkupSafe==3.0.2
+mypy==1.17.0
+mypy_extensions==1.1.0
+pathspec==0.12.1
+ruff==0.12.5
+types-PyYAML==6.0.12.20250516
+typing_extensions==4.14.1
 Werkzeug==3.1.3
